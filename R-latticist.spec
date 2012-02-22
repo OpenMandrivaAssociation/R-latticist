@@ -9,12 +9,13 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-44.tar.gz
-Requires:         R-lattice R-latticeExtra R-vcd 
-Requires:         R-gWidgets R-utils 
-Requires:         R-playwith R-hexbin R-deldir R-tripack R-DAAG R-RGtk2 R-gWidgetsRGtk2 R-gWidgetstcltk R-MASS 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice R-latticeExtra R-vcd
-BuildRequires:    R-gWidgets R-utils 
-BuildRequires:    R-playwith R-hexbin R-deldir R-tripack R-DAAG R-RGtk2 R-gWidgetsRGtk2 R-gWidgetstcltk R-MASS 
+Requires:         R-lattice R-latticeExtra R-vcd R-gWidgets R-utils
+Requires:         R-playwith R-hexbin R-deldir R-tripack R-DAAG R-RGtk2
+Requires:         R-gWidgetsRGtk2 R-gWidgetstcltk R-MASS
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-lattice R-latticeExtra R-vcd R-gWidgets R-utils
+BuildRequires:    R-playwith R-hexbin R-deldir R-tripack R-DAAG R-RGtk2
+BuildRequires:    R-gWidgetsRGtk2 R-gWidgetstcltk R-MASS
 
 %description
 Latticist provides a graphical user interface for exploratory
