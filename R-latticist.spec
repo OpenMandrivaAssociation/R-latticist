@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.9_44
+Version:          0.9.44
 Release:          1
 Summary:          A graphical user interface for exploratory visualisation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-44.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/latticist_0.9-44.tar.gz
 Requires:         R-lattice R-latticeExtra R-vcd R-gWidgets R-utils
 Requires:         R-playwith R-hexbin R-deldir R-tripack R-DAAG R-RGtk2
 Requires:         R-gWidgetsRGtk2 R-gWidgetstcltk R-MASS
@@ -53,3 +53,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/etc
 %{rlibdir}/%{packname}/help
+
