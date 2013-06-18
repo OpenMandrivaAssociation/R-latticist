@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.9_44
-Release:          1
+Release:          2
 Summary:          A graphical user interface for exploratory visualisation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
