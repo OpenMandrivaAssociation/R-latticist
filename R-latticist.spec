@@ -7,7 +7,7 @@ Release:          2
 Summary:          A graphical user interface for exploratory visualisation
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-44.tar.gz
 Requires:         R-lattice R-latticeExtra R-vcd R-gWidgets R-utils
 Requires:         R-playwith R-hexbin R-deldir R-tripack R-DAAG R-RGtk2
